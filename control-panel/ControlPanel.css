@@ -1,0 +1,17 @@
+.controlPanel {
+    width: 200px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: white;
+}
+
+.Reset:hover {
+
+    cursor: pointer;
+}

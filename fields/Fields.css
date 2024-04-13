@@ -1,0 +1,16 @@
+.field {
+    width: 210px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    align-self: center;
+
+}
+
+.cell {
+    background-color: black;
+    border: 1px solid #999;
+    width: 20px;
+    height: 20px;
+}

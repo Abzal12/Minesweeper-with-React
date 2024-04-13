@@ -1,18 +1,19 @@
 import React from 'react';
-import logo from './bomb.svg';
-import './App.css';
+import Loading from "./loading/Loading";
+import Fields from "./fields/Fields"
+import "./App.css"
+import ControlPanel from "./control-panel/ControlPanel";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo"/>
-        <p>
-          Minesweeper is loading...
-        </p>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="Border">
+                <Loading/>
+                <ControlPanel/>
+                <Fields/>
+            </div>
+        </div>
+    )
 }
 
 export default App;
